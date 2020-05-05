@@ -1,0 +1,13 @@
+Given two strings a and b that represent binary numbers, add them and return their sum (also as a string).
+
+The input strings are guaranteed to be non-empty and contain only 1s and 0s.
+
+Example 1
+Input a = "1" b = "1"
+
+Output "10"
+
+Example 2
+Input a = "111" b = "1"
+
+Output "1000"
