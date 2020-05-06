@@ -1,0 +1,45 @@
+Given two strings s0 and s1, determine if one is a rotation of the other.
+
+Constraints
+
+Length of s0 is at most 5000.
+Length of s1 is at most 5000.
+Example 1
+Input
+
+s0 = "Cattywampus"
+s1 = "sCattywampu"
+Output
+
+true
+Example 2
+Input
+
+s0 = "Gardyloo"
+s1 = "dylooGar"
+Output
+
+true
+Explanation
+
+This string is rotated on Gar and dyloo
+
+Example 3
+Input
+
+s0 = "Taradiddle"
+s1 = "diddleTara"
+Output
+
+true
+Example 4
+Input
+
+s0 = "Snickersnee"
+s1 = "Snickersnee"
+Output
+
+true
+Explanation
+
+This one is tricky but it's still a rotation, between `` and Snickersnee
