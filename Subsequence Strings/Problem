@@ -1,0 +1,31 @@
+Given two strings s1 and s2, determine if s1 is a subsequence of s2.
+
+A string a is a subsequence of another string b if you can delete some (or 0) characters from b, 
+without changing the order, and get a.
+
+For example, ace is a subsequence of abcde, but eca is not a subsequence of abcde.
+
+Example 1
+Input
+
+s1 = "ppl"
+s2 = "apple"
+Output
+
+true
+Example 2
+Input
+
+s1 = "ale"
+s2 = "apple"
+Output
+
+true
+Example 3
+Input
+
+s1 = "elppa"
+s2 = "apple"
+Output
+
+false
