@@ -1,0 +1,20 @@
+Given a 2D matrix of characters and a target word, write a function that returns
+whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+
+[['F', 'A', 'C'],
+ ['O', 'B', 'Q'],
+ ['A', 'X', 'O'],
+ ['M', 'A', 'B']]
+and the target word 'FOAM', you should return true.
+
+Example 1
+Input
+
+board = [["H", "E", "L", "L", "O"],
+["A", "B", "C", "D", "E"]]
+word = "HELLO"
+Output
+
+true
